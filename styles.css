@@ -6,6 +6,7 @@ body {
 p {
     margin: 0%;
     padding: 0%;
+    
 }
 
 
@@ -241,3 +242,17 @@ p {
     padding: 5px 30px;
 }
 
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    color: #eee;
+    padding: 40px;
+    font-size: 18px;
+    font-weight: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
