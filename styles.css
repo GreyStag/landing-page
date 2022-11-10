@@ -3,6 +3,11 @@ body {
     flex-direction: column;
 }
 
+p {
+    margin: 0%;
+    padding: 0%;
+}
+
 
 .header {
     background-color: #1f2937;
@@ -75,6 +80,7 @@ body {
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 20px 0;
 }
 
 .content-right {
@@ -106,13 +112,14 @@ body {
 .information-header{
     font-size: 36px;
     font-weight: bolder;
+    color: #1f2937;
 }
 
 .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    margin: 50px;
 }
 
 
@@ -139,9 +146,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 30px;
+    margin: 10px 30px 100px;
     width: 150px;
     text-align: center;
+
 }
 
 
@@ -169,9 +177,67 @@ body {
 }
 
 .credit {
-    display: flex;
-    justify-content: center;
     font-weight: 800;
     flex-basis: 100%;
     padding-left: 400px;
+    margin: 0%;
+
+    display: flex;
+    justify-content: center;
 }
+
+/* call to action */
+
+.action-box {
+    display: flex;
+    justify-content: center;
+}
+
+.action-call {
+    background-color: #3382F6;
+    padding: 50px 100px;
+    margin: 100px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.action-left {
+    display: flex;
+    flex-basis: 70%;
+    flex-wrap: wrap;
+
+    
+}
+
+.top-action {
+    color: #eee;
+    font-size: 24px;
+    font-weight: 700;
+    
+
+}
+
+.btm-action {
+    color: #eee;
+    font-size: 18px;
+}
+
+.action-right {
+    font-size: 18px;
+
+    display: flex;
+    flex-basis: 30%;
+    justify-content: flex-end;
+}
+
+.sign-up {
+    color: #eee;
+    border: solid 1px #eee;
+    border-radius: 8px;
+    padding: 5px 30px;
+}
+
